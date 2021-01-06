@@ -86,7 +86,7 @@ def getUserJson(userInfo,token):
             "text": userInfo['classDescription']
         },
         #如果你来自其他学校，请自行打卡抓包修改地址字段
-        "areaStr": {\"streetNumber\":\"\",\"street\":\"筱塘北街\",\"district\":\"城厢区\",\"city\":\"莆田市\",\"province\":\"福建省\",\"town\":\"\",\"pois\":\"莆田学院中区-凤达学生公寓\",\"lng\":119.01254399999996,\"lat\":25.449236003878486,\"address\":\"城厢区筱塘北街莆田学院中区-凤达学生公寓\",\"text\":\"福建省-莆田市\",\"code\":\"\"},
+        "areaStr": {"streetNumber":"","street":"筱塘北街","district":"城厢区","city":"莆田市","province":"福建省","town":"","pois":"莆田学院中区-凤达学生公寓","lng":119.01254399999996,"lat":25.449236003878486,"address":"城厢区筱塘北街莆田学院中区-凤达学生公寓","text":"福建省-莆田市","code":""},
         "reportdate": round(time.time()*1000),
         "customerid": userInfo['customerId'],
         "deptid": userInfo['classId'],
