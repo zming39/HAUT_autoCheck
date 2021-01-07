@@ -146,6 +146,7 @@ def getUserJson(userInfo,token):
         "token": token
     }    
 
+
 #信息获取函数
 def getUserInfo(token):
     token={'token':token}
