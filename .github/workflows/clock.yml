@@ -1,4 +1,4 @@
-name: clock
+8name: clock
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: 2 0 * * * 
+    - cron: 1 0 * * * 
     - cron: 30 0 * * *
 
 jobs:
